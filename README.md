@@ -1,18 +1,15 @@
 # HTTP Servers Benchmark
 
-A performance comparison between Express.js, Node's HTTP, and Turbo HTTP servers.
+This benchmark compares three HTTP server implementations:
+- **Express**
+- **Node HTTP**
+- **Turbo HTTP**
 
 ## Run
 ```bash
 npm install
 npm run benchmark
 ```
-## Overview
-
-This benchmark compares three HTTP server implementations:
-- **Express**
-- **Node HTTP**
-- **Turbo HTTP**
 
 ## Test Scenarios
 
@@ -26,7 +23,7 @@ This benchmark compares three HTTP server implementations:
 - **Medium**: 10KB of data
 - **Large**: 100KB of data
 
-Each test runs for 10 seconds, measuring:
+Each test runs for each server for 10 seconds, measuring:
 - Throughput (requests/second)
 - Latency (milliseconds)
 - Success/Error rates
