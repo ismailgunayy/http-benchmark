@@ -32,6 +32,9 @@ Each test runs for 10 seconds, measuring:
 - Success/Error rates
 - Memory usage (MB)
 
+## Results
+![Benchmark Results](./results.png)
+
 1. **Success Rates**
    - Node HTTP:
      * Low Load: 100% success across all sizes
