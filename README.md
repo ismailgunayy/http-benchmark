@@ -1,9 +1,9 @@
 # HTTP Servers Benchmark
 
 This benchmark compares three HTTP server implementations:
-- [**Express**](https://expressjs.com/)
-- [**Node HTTP**](https://nodejs.org/api/http.html)
-- [**Turbo HTTP**](https://github.com/mafintosh/turbo-http)
+- [**express**](https://expressjs.com/)
+- [**node:http**](https://nodejs.org/api/http.html)
+- [**turbo-http**](https://github.com/mafintosh/turbo-http)
 
 ## Run
 ```bash
